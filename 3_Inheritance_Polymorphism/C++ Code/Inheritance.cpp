@@ -95,8 +95,6 @@ public:
         cout << brand << " " << model << " : Battery fully charged!" << endl;
     }
 };
-    
-    
 
 // Main Method
 int main() {

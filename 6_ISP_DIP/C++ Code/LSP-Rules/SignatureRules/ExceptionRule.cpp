@@ -17,7 +17,7 @@ using namespace std;
 ├── std::runtime_error      <-- For errors that occur at runtime
 │   ├── std::range_error        <-- Numeric result out of range
 │   ├── std::overflow_error     <-- Arithmetic overflow
-│   ├── std::underflow_error   
+│   ├── std::underflow_error
 */
 
 class Parent {

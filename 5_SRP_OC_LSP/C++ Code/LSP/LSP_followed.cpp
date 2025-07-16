@@ -85,7 +85,7 @@ private:
     vector<DepositOnlyAccount*> depositOnlyAccounts;
 
 public:
-    BankClient( vector<WithdrawableAccount*> withdrawableAccounts, 
+    BankClient( vector<WithdrawableAccount*> withdrawableAccounts,
         vector<DepositOnlyAccount*> depositOnlyAccounts) { 
         this->withdrawableAccounts = withdrawableAccounts; 
         this->depositOnlyAccounts = depositOnlyAccounts;
@@ -115,7 +115,3 @@ int main() {
 
     return 0;
 }
-
-    
-    
-    

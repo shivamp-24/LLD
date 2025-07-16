@@ -29,7 +29,7 @@ private:
     Database* db;  // Dependency Injection
 
 public:
-    UserService(Database* database) {  
+    UserService(Database* database) {
         db = database;
     }
     
