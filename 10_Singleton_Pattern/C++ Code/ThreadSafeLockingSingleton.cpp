@@ -18,10 +18,10 @@ public:
         if (instance == nullptr) {
             instance = new Singleton();
         }
-         return instance;
+        return instance;
     }
 };
- 
+
 // Initialize static members
 Singleton* Singleton::instance = nullptr;
 mutex Singleton::mtx;
